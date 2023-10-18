@@ -1,0 +1,96 @@
+.dashboard-cards {
+    background-color: #ffffff;
+}
+
+.dashboard-card-icon {
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 50% !important;
+}
+
+.dashboard-cards p small {
+    font-size: 0.8rem;
+}
+
+.dashboard-cards p b {
+    font-size: 1rem;
+}
+
+.dashboard-cards p span {
+    font-size: 0.7rem;
+    white-space: nowrap;
+}
+
+.bar-chart-card {
+    margin-left: 3rem;
+}
+
+.bar-chart-bg {
+    background-color: #ffffff;
+}
+
+.bar-chart-bg p b {
+    font-size: 1rem;
+}
+
+.bar-chart-bg p small {
+    font-size: 0.8rem;
+}
+
+.bar-chart-bg span {
+    font-size: 0.75rem;
+}
+
+.donut-chart-bg {
+    background-color: #ffffff;
+}
+
+.donut-chart-card {
+    margin-left: 2rem;
+}
+
+.donut-chart-card p {
+    font-size: 1rem;
+}
+
+.donut-chart-card small {
+    font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .dashboard-cards {
+        margin: 1rem;
+    }
+
+    .charts {
+        justify-content: center;
+    }
+
+    .donut-chart-card .w-75{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .donut-card-bg .canvas{
+        font-size: 0.4rem;
+    }
+}
+
+@media only screen and (max-width: 572px){
+    .charts .col-7{
+        width: 70%;
+    }
+
+    .charts .col-4{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 443px){
+    .charts .col-7{
+        width: 70%;
+        margin-right: 2rem;
+    }
+}

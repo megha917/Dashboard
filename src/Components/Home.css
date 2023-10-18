@@ -1,0 +1,42 @@
+.home {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+.searchbar {
+    height: 1.8rem;
+}
+
+@media only screen and (max-width:1199px) {
+    .searchbar {
+        margin-right: 5rem;
+    }
+}
+
+@media only screen and (min-width:1199px) {
+    .searchbar {
+        margin-right: 2rem;
+    }
+}
+
+#home .form-control::placeholder {
+    font-size: 0.8rem;
+}
+
+.searchbar input {
+    padding-left: 2.5rem;
+}
+
+@media only screen and (max-width: 572px) {
+    .home {
+        font-size: 0.8rem;
+    }
+
+    #home .form-control::placeholder {
+        font-size: 0.7rem;
+    }
+
+    .searchbar {
+        width: 36%;
+    }
+}
